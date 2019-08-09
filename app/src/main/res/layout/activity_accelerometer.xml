@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    android:id="@+id/firstLayout"
+    tools:context=".AccelerometerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/A"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xValue"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/A"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yValue"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/xValue"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/zValue"
+    android:layout_marginTop="30sp"
+    android:layout_below="@+id/yValue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit for x, y, z: m/s2"
+        android:layout_marginTop="30sp"
+        android:id="@+id/U1"
+        android:layout_below="@+id/zValue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/N1"
+        android:layout_marginTop="60sp"
+        android:text="Name:          LSM6DSM Accelerometer"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/U1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/V1"
+        android:layout_marginTop="8sp"
+        android:text="Vendor:          STMicroelectronics"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/N1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/VV1"
+        android:layout_marginTop="8sp"
+        android:text="Version:                 1"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/V1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PP1"
+        android:layout_marginTop="8sp"
+        android:text="Power:               0.15 mA"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/VV1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/R1"
+        android:layout_marginTop="8sp"
+        android:text="Resolution:          0.00239 m/s2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/PP1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/M1"
+        android:layout_marginTop="8sp"
+        android:text="Max.range:          78.45239 m/s2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/R1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:text="(Inertial mass)\(Acceleration)=(Intensity of the gravitational field)\(Gravitational mass)"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/M1"/>
+    
+</RelativeLayout>

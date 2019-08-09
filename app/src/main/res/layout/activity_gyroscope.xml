@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context=".GyroscopeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/GY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/xGyroValue"
+            android:layout_marginTop="30sp"
+            android:layout_below="@+id/GY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yGyroValue"
+            android:layout_marginTop="30sp"
+            android:layout_below="@+id/xGyroValue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zGyroValue"
+            android:layout_marginTop="30sp"
+            android:layout_below="@+id/yGyroValue"/>
+
+        <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30sp"
+              android:layout_below="@+id/zGyroValue"
+              android:text="Unit for x, y, z: rad/s "
+              android:id="@+id/U3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/N3"
+        android:layout_marginTop="60sp"
+        android:text="Name:          LSM6DSM Gyroscope"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/U3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/V3"
+        android:layout_marginTop="8sp"
+        android:text="Vendor:          STMicroelectronics"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/N3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/VV3"
+        android:layout_marginTop="8sp"
+        android:text="Version:                 1"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/V3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PP3"
+        android:layout_marginTop="8sp"
+        android:text="Power:               0.45 mA"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/VV3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/R3"
+        android:layout_marginTop="8sp"
+        android:text="Resolution:          0.00122 m/s2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/PP3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/M3"
+        android:layout_marginTop="8sp"
+        android:text="Max.range:          34.90658 m/s2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/R3"/>
+
+
+
+
+</RelativeLayout>

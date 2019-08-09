@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context=".GravityActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravity"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/G"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xGraValue"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/G"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yGraValue"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/xGraValue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zGraValue"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/yGraValue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Unit for x, y, z: m/s2"
+        android:layout_below="@+id/zGraValue"
+        android:id="@+id/U2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/N2"
+        android:layout_marginTop="60sp"
+        android:text="Name:          Gravity"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/U2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/V2"
+        android:layout_marginTop="8sp"
+        android:text="Vendor:          QTI"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/N2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/VV2"
+        android:layout_marginTop="8sp"
+        android:text="Version:                 2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/V2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PP2"
+        android:layout_marginTop="8sp"
+        android:text="Power:               0.599 mA"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/VV2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/R2"
+        android:layout_marginTop="8sp"
+        android:text="Resolution:          0.00239 m/s2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/PP2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/M2"
+        android:layout_marginTop="8sp"
+        android:text="Max.range:          78.45239 m/s2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/R2"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context=".PressureActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pressure"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/P"/>
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pressure"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/P"/>
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/Pressure"
+        android:text="Unit for pressure: hPa"
+        android:id="@+id/U5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/N5"
+        android:layout_marginTop="60sp"
+        android:text="Name:          HSPPAD042A Pressure"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/U5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/V5"
+        android:layout_marginTop="8sp"
+        android:text="Vendor:          ALPS ELECTRIC CO.,"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/N5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/VV5"
+        android:layout_marginTop="8sp"
+        android:text="Version:                 1"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/V5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PP5"
+        android:layout_marginTop="8sp"
+        android:text="Power:                 0.003 mA"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/VV5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/R5"
+        android:layout_marginTop="8sp"
+        android:text="Resolution:            0.0099945 hPa"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/PP5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/M5"
+        android:layout_marginTop="8sp"
+        android:text="Max.range:              1100.000000 hPa"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/R5"/>
+
+
+
+
+</RelativeLayout>

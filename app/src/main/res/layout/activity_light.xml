@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context=".LightActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/L"/>
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Light"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/L"/>
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Unit for light： lx"
+        android:layout_below="@+id/Light"
+        android:id="@+id/U4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/N4"
+        android:layout_marginTop="60sp"
+        android:text="Name:          APDS-9940 Light"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/U4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/V4"
+        android:layout_marginTop="8sp"
+        android:text="Vendor:          Avago"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/N4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/VV4"
+        android:layout_marginTop="8sp"
+        android:text="Version:                 1"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/V4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PP4"
+        android:layout_marginTop="8sp"
+        android:text="Power:               0.11 mA"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/VV4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/R4"
+        android:layout_marginTop="8sp"
+        android:text="Resolution:          1.00000 lx"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/PP4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/M4"
+        android:layout_marginTop="8sp"
+        android:text="Max.range:          50000.00000 lx"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/R4"/>
+
+
+
+
+
+</RelativeLayout>

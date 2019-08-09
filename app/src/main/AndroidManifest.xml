@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mysensors">
+
+    <uses-feature
+        android:name="android.hardware.sensor.proximity"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/familyub"
+        android:label="My Sensors"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".GravityActivity" />
+        <activity
+            android:name=".activity_main2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SupportActivity" />
+        <activity android:name=".ProximityActivity" />
+        <activity android:name=".PressureActivity" />
+        <activity android:name=".GyroscopeActivity" />
+        <activity android:name=".LightActivity" />
+        <activity android:name=".AccelerometerActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

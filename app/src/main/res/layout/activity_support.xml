@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40sp"
+    android:orientation="vertical"
+    tools:context=".SupportActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Support and Reference:"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="supported  by CSDN community"
+        android:layout_marginTop="60sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="supported  by stack overflow"
+        android:layout_marginTop="8sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="supported  by CRIFAN community"
+        android:layout_marginTop="8sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="supported by android google developers"
+        android:layout_marginTop="8sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reference KGP Talkie website"
+        android:layout_marginTop="8sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reference from EDMTD in github "
+        android:layout_marginTop="8sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picture reference from sina community "
+        android:layout_marginTop="8sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reference from  EDMT Dec on youtube "
+        android:layout_marginTop="8sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reference from  app SensorsMultitool "
+        android:layout_marginTop="8sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reference from  ORACAL jAVA website "
+        android:layout_marginTop="8sp"/>
+
+
+
+
+
+
+
+</LinearLayout>
